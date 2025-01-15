@@ -10,6 +10,6 @@
         Height="450" 
         Width="800">
     <Grid>
-        <views:ReservationListingView />
+        <views:ReservationListingView DataContext="{Binding CurrentViewModel}" />    
     </Grid>
 </Window>
